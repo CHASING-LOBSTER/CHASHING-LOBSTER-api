@@ -1,0 +1,6 @@
+@Chasing.Lobster.Api_HostAddress = http://localhost:5210
+
+GET {{Chasing.Lobster.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

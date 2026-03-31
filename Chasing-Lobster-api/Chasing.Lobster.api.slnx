@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Chasing.Lobster.Api/Chasing.Lobster.Api.csproj" />
+  <Project Path="Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj" />
+</Solution>
