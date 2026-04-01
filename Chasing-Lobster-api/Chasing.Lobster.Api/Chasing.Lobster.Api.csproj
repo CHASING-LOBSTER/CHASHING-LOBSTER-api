@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Chasing.Lobster.Domain\Chasing.Lobster.Domain.csproj" />
+    <ProjectReference Include="..\Chasing.Lobster.Data\Chasing.Lobster.Data.csproj" />
   </ItemGroup>
 
 </Project>
