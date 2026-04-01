@@ -93,6 +93,7 @@ public IActionResult PostRating(int id, [FromBody] Rating rating)
 //     return NoContent();
 // }
 
+[HttpPut("{id:int}")]
 public IActionResult PutItem(int id, [FromBody] Item item)
 {
     if (id != item.Id)
