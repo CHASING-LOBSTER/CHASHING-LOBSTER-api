@@ -31,11 +31,11 @@ namespace Chasing.Lobster.Domain.catalog{
         }
        
         
-        Name = name;
-        Description = description;
-        Brand = brand; 
-        Price = price;
-        Ratings = new List<Rating>();
+        this.Name = name;
+        this.Description = description;
+        this.Brand = brand; 
+        this.Price = price;
+        this.Ratings = new List<Rating>();
     }   
 
     }
