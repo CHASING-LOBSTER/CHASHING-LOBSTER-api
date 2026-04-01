@@ -1,10 +1,17 @@
+using Chasing.Lobster.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+builder.Services.AddDbContext<StoreContext>(options =>
+    options.UseSqlite("Data Source=../ChasingLobster.sqlite",
+        b => b.MigrationsAssembly("Chasing.Lobster.Api"))
+);
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 

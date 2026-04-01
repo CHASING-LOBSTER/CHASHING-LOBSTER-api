@@ -1,20 +1,35 @@
 using Microsoft.AspNetCore.Mvc;
 using Chasing.Lobster.Domain.catalog;
+using Chasing.Lobster.Data;
+using System.Diagnostics.Contracts;
 
 namespace Chasing.Lobster.Api.Controllers{
     [ApiController]
-    [Route("[controller]")]
+    [Route("/catalog")]
 
     public class CatalogController: ControllerBase{
-        [HttpGet]
-        public IActionResult GetItems(){
-            var items = new List<Item>(){
-            new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
-            new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m)
-    };
+        private readonly StoreContext _db;
 
-    return Ok(items);
-}
+        public CatalogController(StoreContext db)
+        {
+            _db = db;
+
+        }
+//         [HttpGet]
+//         public IActionResult GetItems(){
+//             var items = new List<Item>(){
+//             new Item("Shirt", "Ohio State shirt.", "Nike", 29.99m),
+//             new Item("Shorts", "Ohio State shorts.", "Nike", 44.99m)
+//     };
+
+//     return Ok(items);
+// }
+
+[HttpGet]
+public IActionResult GetItem()
+        {
+            return Ok(_db.Items);
+        }
 
 [HttpGet("{id:int}")]
 public IActionResult GetItem(int id){

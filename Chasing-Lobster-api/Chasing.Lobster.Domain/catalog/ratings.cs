@@ -1,7 +1,6 @@
 namespace Chasing.Lobster.Domain.catalog;
 
-public class Rating{
-    
+public class Rating{  
 public int Id {get; set;}
 public int Stars{get; set;}
 public string? UserName {get; set;}
