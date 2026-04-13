@@ -24,8 +24,8 @@ public void Cannot_Create_Rating_With_Invalid_Stars()
         Assert.Fail("Expected ArgumentException was not thrown.");
     }
     catch (ArgumentException)
-    {
-        // Test passes
-    }
+        {
+            
+        }
 }
 }
