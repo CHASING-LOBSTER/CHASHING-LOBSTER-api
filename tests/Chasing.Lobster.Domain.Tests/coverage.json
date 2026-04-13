@@ -1,0 +1,284 @@
+{
+  "Chasing.Lobster.Domain.dll": {
+    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Orders/Order.cs": {
+      "Chasing.Lobster.Domain.Orders.Order": {
+        "System.Int32 Chasing.Lobster.Domain.Orders.Order::get_Id()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Chasing.Lobster.Domain.Orders.OrderItem> Chasing.Lobster.Domain.Orders.Order::get_Items()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.DateTime Chasing.Lobster.Domain.Orders.Order::get_CreatedDate()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Chasing.Lobster.Domain.Orders.Order::get_TotalPrice()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Orders/OrderItem.cs": {
+      "Chasing.Lobster.Domain.Orders.OrderItem": {
+        "System.Int32 Chasing.Lobster.Domain.Orders.OrderItem::get_Id()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "Chasing.Lobster.Domain.Orders.OrderItem Chasing.Lobster.Domain.Orders.OrderItem::get_Item()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Chasing.Lobster.Domain.Orders.OrderItem::get_Quantity()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Chasing.Lobster.Domain.Orders.OrderItem::get_Price()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/catalog/item.cs": {
+      "Chasing.Lobster.Domain.catalog.Item": {
+        "System.Int32 Chasing.Lobster.Domain.catalog.Item::get_Id()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Chasing.Lobster.Domain.catalog.Item::get_Name()": {
+          "Lines": {
+            "6": 0
+          },
+          "Branches": []
+        },
+        "System.String Chasing.Lobster.Domain.catalog.Item::get_Description()": {
+          "Lines": {
+            "7": 0
+          },
+          "Branches": []
+        },
+        "System.String Chasing.Lobster.Domain.catalog.Item::get_Brand()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        },
+        "System.Decimal Chasing.Lobster.Domain.catalog.Item::get_Price()": {
+          "Lines": {
+            "9": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Chasing.Lobster.Domain.catalog.Rating> Chasing.Lobster.Domain.catalog.Item::get_Ratings()": {
+          "Lines": {
+            "10": 0
+          },
+          "Branches": []
+        },
+        "System.Void Chasing.Lobster.Domain.catalog.Item::AddRating(Chasing.Lobster.Domain.catalog.Rating)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": []
+        },
+        "System.Void Chasing.Lobster.Domain.catalog.Item::.ctor(System.String,System.String,System.String,System.Decimal)": {
+          "Lines": {
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "21": 0,
+            "22": 0,
+            "25": 0,
+            "26": 0,
+            "29": 0,
+            "30": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 17,
+              "Offset": 16,
+              "EndOffset": 18,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 16,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 34,
+              "EndOffset": 44,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 52,
+              "EndOffset": 54,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 52,
+              "EndOffset": 62,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 81,
+              "EndOffset": 83,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 81,
+              "EndOffset": 95,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/catalog/ratings.cs": {
+      "Chasing.Lobster.Domain.catalog.Rating": {
+        "System.Int32 Chasing.Lobster.Domain.catalog.Rating::get_Id()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": []
+        },
+        "System.Int32 Chasing.Lobster.Domain.catalog.Rating::get_Stars()": {
+          "Lines": {
+            "5": 2
+          },
+          "Branches": []
+        },
+        "System.String Chasing.Lobster.Domain.catalog.Rating::get_UserName()": {
+          "Lines": {
+            "6": 2
+          },
+          "Branches": []
+        },
+        "System.String Chasing.Lobster.Domain.catalog.Rating::get_Review()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.Void Chasing.Lobster.Domain.catalog.Rating::.ctor(System.Int32,System.String,System.String)": {
+          "Lines": {
+            "9": 4,
+            "10": 3,
+            "11": 1,
+            "14": 1,
+            "15": 0,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": [
+            {
+              "Line": 10,
+              "Offset": 10,
+              "EndOffset": 12,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 10,
+              "Offset": 10,
+              "EndOffset": 18,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 10,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 10,
+              "Offset": 21,
+              "EndOffset": 35,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 14,
+              "Offset": 43,
+              "EndOffset": 45,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 43,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    }
+  }
+}
