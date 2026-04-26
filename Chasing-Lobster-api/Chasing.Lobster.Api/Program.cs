@@ -10,6 +10,15 @@ builder.Services.AddDbContext<StoreContext>(options =>
     options.UseSqlite("Data Source=../ChasingLobster.sqlite",
         b => b.MigrationsAssembly("Chasing.Lobster.Api"))
 );
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.WithOrigins("http://localhost:3002")
+               .AllowAnyHeader()
+               .AllowAnyMethod();
+    });
+});
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
@@ -21,8 +30,6 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseSwagger();
-    app.UseSwaggerUI();
 
 app.UseHttpsRedirection();
 
