@@ -3,6 +3,7 @@ using Chasing.Lobster.Domain.catalog;
 using Chasing.Lobster.Data;
 using System.Diagnostics.Contracts;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Chasing.Lobster.Api.Controllers{
     [ApiController]
@@ -118,16 +119,17 @@ public IActionResult PutItem(int id, [FromBody] Item item)
 //         {
 //             return NoContent();
 //         }
-        [HttpDelete("{id:int}")]
-        public IActionResult DeleteItem(int id){
-           var item = _db.Items.Find(id);
-            if(item == null){
-                return NotFound();
-            }
-            _db.Items.Remove(item);
-            _db.SaveChanges();
-            return Ok();            
-        }  
+       [HttpDelete("{id:int}")]
+[Authorize("delete:catalog")]
+public IActionResult DeleteItem(int id){
+   var item = _db.Items.Find(id);
+    if(item == null){
+        return NotFound();
+    }
+    _db.Items.Remove(item);
+    _db.SaveChanges();
+    return Ok();            
+}
 
     }
     

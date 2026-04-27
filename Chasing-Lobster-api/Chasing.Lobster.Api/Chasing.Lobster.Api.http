@@ -4,3 +4,53 @@ GET {{Chasing.Lobster.Api_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+###
+
+DELETE {{Chasing.Lobster.Api_HostAddress}}/catalog/3
+
+###
+curl --request POST \
+  --url https://dev-ymy1tooj7rf3v0y2.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{
+    "client_id":"xkx8O3R01IqU7Ek7Q2h1fxzpjC1TgzlM",
+    "client_secret":"M1982oU-yWw2BLK-Yh424gpN2V4NCZGe8gcEZR0wPg7z6xfxMEwCiYfDO7XQpBh4",
+    "audience":"https://chasing-lobster",
+    "grant_type":"client_credentials"
+  }'
+
+###
+
+DELETE {{Chasing.Lobster.Api_HostAddress}}/catalog/3
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjkwcDZBYlJKWXktSWV0MlZhZEt3SiJ9.eyJpc3MiOiJodHRwczovL2Rldi15bXkxdG9vajdyZjN2MHkyLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJ4a3g4TzNSMDFJcVU3RWs3UTJoMWZ4enBqQzFUZ3psTUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9jaGFzaW5nLWxvYnN0ZXIiLCJpYXQiOjE3NzcyNDc3NTMsImV4cCI6MTc3NzMzNDE1MywiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIiwiYXpwIjoieGt4OE8zUjAxSXFVN0VrN1EyaDFmeHpwakMxVGd6bE0ifQ.AOSdsoaUR3a8r9el-tr2sB4L41DySFh5_rqLe4SIoo4LtQnzfMxfKD8JdE-kdQVMrbVmcBCMRGaLEfwsq_OZW5SziekgykIoc6xAbggcN_CURBq4XHe3l-Mts-q9kVqCjDr5HTVKYZq3P2MH1z_FhfomWrWKe9Mv5xJs5oPiabNxzvgBEezqMhZdhx2yMftL4FfuvnQv_nLrh8S7W4AUho1oHNMgdbYPp6PD4VQ6AGJq3nPWymgZR03t_UJqbN3NwSrL6pwEJhyGuFM5oXrRMqg4rUhuSvpa-EAkxsMud_-RrNFU2GLBBzai8cbOuq-uYlyXpNRssLZFONiTaANsAg
+
+###
+curl --request POST \
+  --url https://dev-ymy1tooj7rf3v0y2.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{
+    "client_id":"xkx8O3R01IqU7Ek7Q2h1fxzpjC1TgzlM",
+    "client_secret":"M1982oU-yWw2BLK-Yh424gpN2V4NCZGe8gcEZR0wPg7z6xfxMEwCiYfDO7XQpBh4",
+    "audience":"https://chasing-lobster",
+    "grant_type":"client_credentials"
+  }'
+
+###
+
+DELETE {{Chasing.Lobster.Api_HostAddress}}/catalog/3
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjkwcDZBYlJKWXktSWV0MlZhZEt3SiJ9.eyJpc3MiOiJodHRwczovL2Rldi15bXkxdG9vajdyZjN2MHkyLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJ4a3g4TzNSMDFJcVU3RWs3UTJoMWZ4enBqQzFUZ3psTUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9jaGFzaW5nLWxvYnN0ZXIiLCJpYXQiOjE3NzcyNDgxNDIsImV4cCI6MTc3NzMzNDU0MiwiZ3R5IjoiY2xpZW50LWNyZWRlbnRpYWxzIiwiYXpwIjoieGt4OE8zUjAxSXFVN0VrN1EyaDFmeHpwakMxVGd6bE0ifQ.M0ult6sAzAuFTRZdfAS8VGymEL18rw7VUVXgP9v73uXilUi8P6sCDgQW3fK8oOpdk-WBuLFm4b1_mKXypHK4BRed3_i9KjbkjW3FuMv499tpMh3KjvqsCew-CAGt_KYs_b4JMPHbEzI38pA7TeYg8kqJqpt5JKHHAOU4vzIQBWlxzwuS3mayr97uIGlwfblCBVCcwS6EsZJqQNb-oq2f1FU-lNEh44wDmGyN2OF8oU5UW-jDfnBfTZ-zo4nH86Ykbj6OP_dTHivt3QDU3JtinKW0YKTJ-RkozegOaClDEP8Vtkf5F5MuKfGmMRSe88IbzQqfsCO-luL7_AZwfO4w5A
+
+###
+curl --request POST \
+  --url https://dev-ymy1tooj7rf3v0y2.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{
+    "client_id":"xkx8O3R01IqU7Ek7Q2h1fxzpjC1TgzlM",
+    "client_secret":"M1982oU-yWw2BLK-Yh424gpN2V4NCZGe8gcEZR0wPg7z6xfxMEwCiYfDO7XQpBh4",
+    "audience":"https://chasing-lobster",
+    "grant_type":"client_credentials"
+  }'
+
+###2
+DELETE {{Chasing.Lobster.Api_HostAddress}}/catalog/3
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjkwcDZBYlJKWXktSWV0MlZhZEt3SiJ9.eyJpc3MiOiJodHRwczovL2Rldi15bXkxdG9vajdyZjN2MHkyLnVzLmF1dGgwLmNvbS8iLCJzdWIiOiJ4a3g4TzNSMDFJcVU3RWs3UTJoMWZ4enBqQzFUZ3psTUBjbGllbnRzIiwiYXVkIjoiaHR0cHM6Ly9jaGFzaW5nLWxvYnN0ZXIiLCJpYXQiOjE3NzcyNDgyODUsImV4cCI6MTc3NzMzNDY4NSwic2NvcGUiOiJkZWxldGU6Y2F0YWxvZyIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyIsImF6cCI6InhreDhPM1IwMUlxVTdFazdRMmgxZnh6cGpDMVRnemxNIn0.ZI0O03VvXNuCTpX4Y8-lPgmXzFrdidr-OtvlDAZZ4McetugvvG29OBlcgXnR7kE5_gRLHeDAJjq2K_Vqgg8wxWmX6dY5NTD_bnSfn6fftEDvDCPT1Dt_MMJxtygE6Dyb3w2WtOlDNMv4mgpjhdBbqg_UXRWSM7p2CY6xipMSbdbWoxR9rs8WHjKt09ujzhitOF_gwRg0IhTt9RiQA0lSwWNWJ8L8R1VQd0vgzRR7cbnqUYBK-rgZCpAJdZgaJtZVM2z9-3Y-iygDiGfF4-CU80i-rAD-k65ZQ4pTPO_oQaYGQKitb04zd3iDF9se7Uy2BKywikMBkSw3E6HOMxacEA
