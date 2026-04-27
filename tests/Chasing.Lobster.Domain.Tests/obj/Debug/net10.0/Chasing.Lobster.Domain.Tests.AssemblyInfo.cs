@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chasing.Lobster.Domain.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eddec7ff4de7690ab1f87691f67d2f0463e39292")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+933ab71efe86374eb816313288266de7547ae9a0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chasing.Lobster.Domain.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chasing.Lobster.Domain.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

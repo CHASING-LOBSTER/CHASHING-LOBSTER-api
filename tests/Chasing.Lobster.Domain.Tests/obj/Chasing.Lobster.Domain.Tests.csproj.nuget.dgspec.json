@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj": {}
+    "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj": {}
   },
   "projects": {
-    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj": {
+    "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj",
+        "projectUniqueName": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj",
         "projectName": "Chasing.Lobster.Domain",
-        "projectPath": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj",
+        "projectPath": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj",
         "packagesPath": "/Users/akshatkatwala/.nuget/packages/",
-        "outputPath": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/obj/",
+        "outputPath": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akshatkatwala/.nuget/NuGet/NuGet.Config"
@@ -337,14 +337,14 @@
         }
       }
     },
-    "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj": {
+    "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj",
+        "projectUniqueName": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj",
         "projectName": "Chasing.Lobster.Domain.Tests",
-        "projectPath": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj",
+        "projectPath": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/Chasing.Lobster.Domain.Tests.csproj",
         "packagesPath": "/Users/akshatkatwala/.nuget/packages/",
-        "outputPath": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/obj/",
+        "outputPath": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/tests/Chasing.Lobster.Domain.Tests/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akshatkatwala/.nuget/NuGet/NuGet.Config"
@@ -359,8 +359,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj": {
-                "projectPath": "/Users/akshatkatwala/Desktop/Lab5/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj"
+              "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj": {
+                "projectPath": "/Users/akshatkatwala/Desktop/CHASHING-LOBSTER-api/Chasing-Lobster-api/Chasing.Lobster.Domain/Chasing.Lobster.Domain.csproj"
               }
             }
           }
